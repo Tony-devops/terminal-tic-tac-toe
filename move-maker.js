@@ -17,7 +17,12 @@
 */
 function validateMove(move, board) {
     // Implement this at the end if you have time, otherwise you can help your teammates!
-    return true;
+   
+    let board = [['X', '_', '_'], ['_', 'X', '_'],['O', 'O', 'X']]
+    if (move.length !==2){
+        return 'Invalid';
+    } else if ( move[0]<4 && move[0]>0 && move[1<4 && move[1]>0]){}}
+    
 }
 
 /*
